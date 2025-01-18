@@ -33,9 +33,8 @@ async function fetchAPI(word) {
 
     
   } catch (error) {
-    
+    infoText.innerText = "An error happened try again"; 
   }
-   
 }
 
 input.addEventListener("keyup" ,(e) => {
